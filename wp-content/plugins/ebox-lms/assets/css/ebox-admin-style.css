@@ -1,0 +1,247 @@
+table.ebox-admin-user-courses {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+table.ebox-admin-user-courses thead tr th {
+  border-bottom: 1px solid #ddd;
+}
+
+table.ebox-admin-user-courses th,
+table.ebox-admin-user-courses td {
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+table.ebox-admin-user-courses tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/*
+table.ebox-admin-user-courses tbody tr:hover {
+	background-color: #f5f5f5;
+}
+*/
+
+table.ebox-admin-user-courses th,
+table.ebox-admin-user-courses td {
+  padding: 5px 5px;
+}
+
+table.ebox-admin-user-courses td.col-title {
+  width: 35%;
+}
+table.ebox-admin-user-courses td.col-status {
+  width: 15%;
+}
+table.ebox-admin-user-courses th.col-steps,
+table.ebox-admin-user-courses td.col-steps {
+  text-align: center;
+  width: 15%;
+}
+table.ebox-admin-user-courses td.col-dates {
+  width: 35%;
+}
+
+/* Data Upgrade screens */
+table#ebox-data-upgrades .ebox-data-upgrades-name {
+  font-weight: bold;
+}
+table#ebox-data-upgrades td.ebox-data-upgrades-button-container {
+  width: 10%;
+}
+
+table#ebox-data-upgrades td.ebox-data-upgrades-status-container {
+  width: 90%;
+}
+
+table#ebox-data-upgrades .progress-label-complete {
+  color: green;
+}
+
+table#ebox-data-upgrades .progress-label-in-progress {
+  color: inherit;
+}
+
+table#ebox-data-upgrades .progress-label-in-complete {
+  color: red;
+}
+
+table#ebox-data-upgrades .ebox-skipped {
+  width: 100%;
+  color: red;
+}
+
+table#ebox-data-upgrades .ebox-skipped ol {
+  color: red;
+  max-height: 100px;
+  overflow: auto;
+  margin: 5px 0;
+  list-style-position: inside;
+}
+
+table#ebox-data-upgrades .ebox-skipped ol li {
+  margin-left: 10px;
+}
+
+.wpProQuiz_quizEdit .ebox-quiz-prerequisite-list-left,
+.wpProQuiz_quizEdit .ebox-quiz-prerequisite-list-right {
+  width: 45%;
+  min-width: 200px;
+}
+
+.wpProQuiz_quizEdit .ebox-quiz-prerequisite-list-center {
+  width: 100px;
+  min-width: 100px;
+  max-width: 100px;
+}
+
+.wpProQuiz_quizEdit
+  td.ebox-quiz-prerequisite-list-left
+  select.ebox-quiz-prerequisite-list,
+.wpProQuiz_quizEdit
+  td.ebox-quiz-prerequisite-list-right
+  select.ebox-quiz-prerequisite-list {
+  width: 100%;
+}
+
+/**
+ * These styles are used for the Onboarding templates.
+ */
+.ld-onboarding-screen {
+  background-color: #83bbb6;
+  text-align: center;
+}
+
+#poststuff .ld-onboarding-screen {
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+#poststuff .ld-onboarding-screen h2,
+.ld-onboarding-screen h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+#poststuff .ld-onboarding-screen .dashicons-welcome-add-page,
+.ld-onboarding-screen .dashicons-welcome-add-page {
+  color: #fff;
+  font-size: 80px;
+  height: 80px;
+  width: 80px;
+}
+
+#poststuff .ld-onboarding-main,
+.ld-onboarding-main {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  padding: 50px 0;
+}
+
+#poststuff .ld-onboarding-main p,
+.ld-onboarding-main p {
+  font-size: 18px;
+}
+
+#poststuff .ld-onboarding-main a.button .dashicons-plus-alt,
+.ld-onboarding-main a.button .dashicons-plus-alt {
+  color: #c6c9cb;
+  vertical-align: middle;
+}
+
+#poststuff .ld-onboarding-more-help,
+.ld-onboarding-more-help {
+  background-color: #fff;
+  margin-left: -20px;
+  padding: 50px 0;
+}
+
+#poststuff .ld-onboarding-row,
+.ld-onboarding-row {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  text-align: left;
+}
+
+#poststuff .ld-onboarding-col,
+.ld-onboarding-col {
+  flex: 1;
+  font-size: 16px;
+  padding: 0 20px;
+
+  
+  background-color: #e4ebf5;
+  border-radius: 4px;
+  box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #ffffff;
+  margin-bottom: 58px;
+  padding: 32px 30px;
+  height: 370px;
+  text-align: left;
+}
+
+#poststuff .ld-onboarding-col p,
+.ld-onboarding-col p {
+  font-size: 16px;
+}
+
+#poststuff .ld-onboarding-col img,
+.ld-onboarding-col img {
+  height: auto;
+  max-width: 100%;
+}
+
+#poststuff .ld-onboarding-col a,
+.ld-onboarding-col a {
+  text-decoration: none;
+}
+
+/* Hide WP listing */
+/*
+.ld-onboarding-screen + .wrap {
+	display: none;
+}
+*/
+
+/* A modal shown on Essays and Assignments admin tables. */
+body.edit-php.post-type-ebox-essays .ui-dialog-titlebar,
+body.edit-php.post-type-ebox-assignment .ui-dialog-titlebar {
+  font-size: 0.9rem;
+  line-height: 2.2rem;
+  text-transform: capitalize;
+}
+
+body.edit-php.post-type-ebox-essays .ui-dialog-titlebar-close,
+body.edit-php.post-type-ebox-assignment .ui-dialog-titlebar-close {
+  background: #fff;
+}
+
+body.edit-php.post-type-ebox-essays
+  .ui-dialog-content
+  .ebox-modal-download-link-wrapper,
+body.edit-php.post-type-ebox-assignment .ui-dialog-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body.edit-php.post-type-ebox-essays
+  .ui-dialog-content
+  .ebox-modal-download-link-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+}
+
+body.edit-php.post-type-ebox-essays .ui-dialog-content img,
+body.edit-php.post-type-ebox-assignment .ui-dialog-content img {
+  max-width: 100%;
+}

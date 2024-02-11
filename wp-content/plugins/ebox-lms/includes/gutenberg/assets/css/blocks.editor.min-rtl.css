@@ -1,0 +1,133 @@
+.edit-post-visual-editor .wp-block span.ebox-inner-header {
+  display: none;
+}
+.edit-post-visual-editor .wp-block.has-child-selected span.ebox-inner-header,
+.edit-post-visual-editor .wp-block.is-selected span.ebox-inner-header {
+  border-bottom: 1px solid rgba(66, 88, 99, 0.4);
+  display: block;
+  font-size: 0.65em;
+  opacity: 0.65;
+}
+.edit-post-visual-editor div[data-type="ebox/ld-course-list"],
+.edit-post-visual-editor div[data-type="ebox/ld-lesson-list"],
+.edit-post-visual-editor div[data-type="ebox/ld-quiz-list"],
+.edit-post-visual-editor div[data-type="ebox/ld-topic-list"] {
+  padding-top: 10px;
+}
+.edit-post-visual-editor
+  div[data-type="ebox/ld-course-list"]
+  .ld-course-list-items
+  h2.ld-entry-title {
+  clear: both;
+  margin-bottom: 0;
+  margin-top: 0;
+  width: 100%;
+}
+#ebox_shortcodes_sections .ebox-block-error-message,
+.block-editor-block-inspector .ebox-block-error-message,
+.edit-post-visual-editor .ebox-block-error-message {
+  color: red;
+  display: block;
+}
+.components-panel .ebox-block-controls-panel select[multiple] {
+  height: max-content !important;
+}
+.ebox-exam-question {
+  background-color: transparent;
+}
+.ebox-exam-question-empty-answers,
+.ebox-exam-question-empty-correct,
+.ebox-exam-question-empty-title {
+  color: #ff2b2b;
+  display: none;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+.is-selected .ebox-exam-question-empty-title {
+  display: inline-block;
+  left: 0;
+  position: absolute;
+}
+.is-selected .ebox-exam-question-empty-answers,
+.is-selected .ebox-exam-question-empty-correct {
+  bottom: 100%;
+  display: inline-block;
+  left: 0;
+  position: absolute;
+}
+.ebox-exam-question-flexbox {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  padding-bottom: 30px;
+}
+div.ebox-exam-question-answers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-start;
+}
+div.ebox-exam-question-single-answer {
+  display: flex;
+  gap: 5px;
+}
+.ld_exam .ebox-exam-question-single-answer span {
+  vertical-align: middle;
+}
+div.ebox-exam-question-single-answer .ebox-exam-question-single-answer-delete {
+  min-width: 36px;
+  visibility: hidden;
+}
+.wp-block[data-type="ebox/ld-question-answers-block"].is-selected
+  .ebox-exam-question-single-answer-delete {
+  visibility: initial;
+}
+span.ebox-exam-question-answer-toggle {
+  margin-right: auto;
+}
+span.ebox-exam-question-answer-input {
+  display: inline-block;
+  width: 100%;
+}
+button.ebox-exam-question-answer-toggle-button {
+  justify-content: center;
+  width: 80px;
+}
+div.wp-block[data-type="ebox/ld-exam-question"].has-child-selected
+  div.wp-block[data-type="ebox/ld-correct-answer-message-block"],
+div.wp-block[data-type="ebox/ld-exam-question"].has-child-selected
+  div.wp-block[data-type="ebox/ld-incorrect-answer-message-block"] {
+  display: inherit;
+  margin-top: 1em;
+}
+div.wp-block[data-type="ebox/ld-correct-answer-message-block"],
+div.wp-block[data-type="ebox/ld-incorrect-answer-message-block"] {
+  display: none;
+}
+div.wp-block[data-type="ebox/ld-exam"]
+  .block-editor-block-list__layout
+  .block-list-appender {
+  display: flex;
+  left: calc(50% - 24px);
+  position: absolute;
+}
+div.wp-block[data-type="ebox/ld-exam-question"]
+  .ebox-exam-question-empty-answers,
+div.wp-block[data-type="ebox/ld-exam-question"]
+  .ebox-exam-question-empty-title {
+  display: none;
+}
+div.wp-block[data-type="ebox/ld-exam-question"]
+  .ebox-exam-question-allow-validations.ebox-exam-question-empty-title {
+  display: inline-block;
+  left: 0;
+  position: absolute;
+}
+div.wp-block[data-type="ebox/ld-exam-question"]
+  .ebox-exam-question-allow-validations
+  .ebox-exam-question-empty-answers {
+  bottom: 45px;
+  display: inline-block;
+  left: 90px;
+  position: absolute;
+}

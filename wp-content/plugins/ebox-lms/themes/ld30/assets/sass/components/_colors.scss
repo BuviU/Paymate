@@ -1,0 +1,128 @@
+
+$purple: #4d1081;
+$orange: #ca5116;
+$pink: #f495e8;
+
+/*
+* Primary color
+*/
+
+.ebox-wrapper .ld-item-list-item.ld-is-next {
+	border-color: $purple;
+}
+
+.ebox-wrapper .ld-icon-certificate {
+	color: $purple;
+}
+
+.ebox-wrapper a {
+	color:$purple;
+}
+
+.ebox-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active {
+	color:$purple;
+}
+
+.ebox-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active:after {
+	background:$purple;
+}
+
+.ebox-wrapper .wpProQuiz_content .wpProQuiz_button {
+	background-color:$purple;
+}
+
+.ebox-wrapper .ld-button,
+.ebox-wrapper .ld-expand-button {
+	background-color:$purple;
+}
+
+.ebox-wrapper .wpProQuiz_content .wpProQuiz_questionListItem label:focus-within {
+	border-color:$purple;
+}
+
+.ebox-wrapper .btn-join,
+.ebox-wrapper #btn-join {
+	background-color:$purple;
+}
+
+
+/* Primary color utility classes */
+.ebox-wrapper .ld-primary-color {
+	color:$purple!important;
+}
+
+.ebox-wrapper .ld-primary-color-hover:hover {
+	color:$purple !important;
+}
+
+.ebox-wrapper .ld-primary-background {
+	background-color:$purple !important;
+}
+
+
+/*
+* Secondary color
+*/
+
+.ebox-wrapper .ld-status-complete {
+	background-color:$orange;
+}
+
+.ebox-wrapper .ebox_mark_complete_button,
+.ebox-wrapper #ebox_mark_complete_button {
+	background-color:$orange;
+}
+
+/* Secondary color utility classes */
+
+.ebox-wrapper .ld-secondary-color {
+	color:$orange !important;
+}
+
+.ebox-wrapper .ld-secondary-background {
+	background-color:$orange !important;
+}
+
+.ebox-wrapper .ld-secondary-color-hover:hover {
+		color:$orange !important;
+}
+
+
+.ebox-wrapper .ld-secondary-in-progress-icon {
+	border-left-color:$orange !important;
+	border-top-color:$orange !important;
+
+}
+
+
+/*
+* Tertiary color
+*/
+
+
+.ld-alert-warningg .ld-alert-icon { background-color:$pink; } // cspell:disable-line
+.ld-status-waiting { background-color:$pink; }
+
+
+#ebox-tooltips .ld-tooltip {
+	background-color:$purple;
+}
+
+#ebox-tooltips .ld-tooltip:after {
+	background-color:$purple;
+}
+
+/* Tertiary color utility classes */
+
+.ebox-wrapper .ld-tertiary-color {
+	color:$pink !important;
+}
+
+.ebox-wrapper .ld-tertiary-background {
+	background-color:$pink !important;
+	color:white;
+}
+
+.ebox-wrapper .ld-tertiary-color-hover:hover {
+	color:$pink !important;
+}

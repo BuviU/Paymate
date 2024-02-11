@@ -1,0 +1,28 @@
+
+#wpbody-content .inline-edit-row .ebox-inline-edit fieldset.inline-edit-col-ld_teams_membership-settings {
+  clear: both;
+}
+
+#wpbody-content .inline-edit-row .ebox-inline-edit fieldset.inline-edit-col-ld_teams_membership-teams {
+  margin-top: 27px;
+  width: 60%;
+}
+
+#wpbody-content .inline-edit-row .ebox-inline-edit .inline-edit-col-ld_teams_membership .select2-container--ebox {
+  width: 75%;
+  min-width: 75%;
+  max-width: 75%;
+  float: left;
+}
+
+#wpbody-content .inline-edit-row .ebox-inline-edit .inline-edit-col-ld_teams_membership .select2-container--ebox .select2-selection--multiple .select2-search__field {
+  width: 100% !important
+}
+
+#wpbody-content .inline-edit-row .ebox-inline-edit .inline-edit-col-ld_teams_membership .select2-container--ebox .select2-selection--multiple {
+  height: 75px;
+}
+
+#wpbody-content .inline-edit-row .ebox-inline-edit .inline-edit-col-ld_teams_membership .ld-inline-edit-col-teams-hierarchical .select2-container--ebox .select2-selection--multiple {
+  height: 105px;
+}

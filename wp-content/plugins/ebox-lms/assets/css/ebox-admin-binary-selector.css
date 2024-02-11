@@ -1,0 +1,90 @@
+.ebox-binary-selector {
+	clear: both;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.ebox-binary-selector table.ebox-binary-selector-table {
+	width: 100%;
+}
+
+.ebox-binary-selector .ebox-binary-selector-section-left {
+	width: 47%;
+	float: left;
+}
+.ebox-binary-selector .ebox-binary-selector-section-middle {
+	width: 5%;
+	float: left;
+	text-align: center;
+	margin-top: 8%;
+}
+
+.ebox-binary-selector .ebox-binary-selector-section-right {
+	width: 47%;
+	float: left;
+}
+
+.ebox-binary-selector .ebox-binary-selector-section .ebox-binary-selector-items {
+	border: 1px solid #ccc;
+	padding: 5px;
+	width: 100%;
+	max-width: 100%;
+}
+
+.ebox-binary-selector .ebox-binary-selector-section .ebox-binary-selector-items > .ebox-binary-selector-item {
+	padding: 0.15em 0;
+	width: 100%;
+}
+
+/*
+.ebox-binary-selector .ebox-binary-selector-section .ebox-binary-selector-items > .ebox-binary-selector-item:hover,
+.ebox-binary-selector .ebox-binary-selector-section .ebox-binary-selector-items > .ebox-binary-selector-item-selected {
+	background-color: #ccc;
+}
+*/
+
+/*
+.ebox-binary-selector .ebox-binary-selector-section .ebox-binary-selector-items > .ebox-binary-selector-item-disabled:hover{
+	background-color: inherit;
+}
+*/
+.ebox-binary-selector .ebox-binary-selector-search {
+	width: 100%;
+	float: left;
+}
+
+
+.ebox-binary-selector .ebox-binary-selector-section-left option.ebox-binary-selector-item-disabled {
+	text-decoration: line-through;
+	/* color: #ccc; */
+}
+
+
+.ebox-binary-selector ul.ebox-binary-selector-pager {
+	width: 100%;
+}
+
+.ebox-binary-selector ul.ebox-binary-selector-pager li.ebox-binary-selector-pager-prev {
+	width: 30%;
+	float: left;
+	text-align: left;
+}
+.ebox-binary-selector ul.ebox-binary-selector-pager li.ebox-binary-selector-pager-info {
+	width: 40%;
+	float: left;
+	text-align: center;
+}
+.ebox-binary-selector ul.ebox-binary-selector-pager li.ebox-binary-selector-pager-next {
+	width: 30%;
+	float: left;
+	text-align: right;
+}
+.ebox-binary-selector ul.ebox-binary-selector-pager a {
+	text-decoration: none;
+	padding: 0 5px;
+	display: block;
+}
+.ebox-binary-selector ul.ebox-binary-selector-pager a:hover {
+	background-color: inherit;
+}
+

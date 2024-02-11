@@ -1,0 +1,49 @@
+/* Admin Users */
+body.ebox-user-admin #adminmenumain .toplevel_page_ebox-lms .wp-submenu > li.submenu-ldlms-topics:after,
+body.ebox-user-admin #adminmenumain .toplevel_page_ebox-lms .wp-submenu > li.submenu-ldlms-teams:after,
+body.ebox-user-admin #adminmenumain .toplevel_page_ebox-lms .wp-submenu > li.submenu-ldlms-exam-questions:after {
+	background: #b4b9be;
+	content: '';
+	display: block;
+	height: 1px;
+	margin: 5px auto 0 auto;
+	width: calc( 100% - 24px );
+	opacity: 0.4;
+}
+
+body.ebox-user-admin #adminmenu .toplevel_page_ebox-lms .wp-submenu > li.submenu-ldlms-topics,
+body.ebox-user-admin #adminmenu .toplevel_page_ebox-lms .wp-submenu > li.submenu-ldlms-teams,
+body.ebox-user-admin #adminmenu .toplevel_page_ebox-lms .wp-submenu > li.submenu-ldlms-exam-questions {
+	padding-bottom: 1px;
+}
+
+body.ebox-user-admin #adminmenu .toplevel_page_ebox-lms .wp-submenu > li.submenu-ldlms-topics + li,
+body.ebox-user-admin #adminmenu .toplevel_page_ebox-lms .wp-submenu > li.submenu-ldlms-teams + li,
+body.ebox-user-admin #adminmenu .toplevel_page_ebox-lms .wp-submenu > li.submenu-ldlms-exam-questions + li {
+	padding-top: 1px;
+}
+
+/* Team Leader */
+body.ebox-user-team-leader #adminmenumain .toplevel_page_ebox-lms .wp-submenu > li.submenu-ldlms-topics:after,
+body.ebox-user-team-leader #adminmenumain .toplevel_page_ebox-lms .wp-submenu > li.submenu-ldlms-teams:after,
+body.ebox-user-team-leader #adminmenumain .toplevel_page_ebox-lms .wp-submenu > li.submenu-ldlms-exam-questions:after {
+	background: #b4b9be;
+	content: '';
+	display: block;
+	height: 1px;
+	margin: 5px auto 0 auto;
+	width: calc( 100% - 24px );
+	opacity: 0.4;
+}
+
+body.ebox-user-team-leader #adminmenu .toplevel_page_ebox-lms .wp-submenu > li.submenu-ldlms-topics,
+body.ebox-user-team-leader #adminmenu .toplevel_page_ebox-lms .wp-submenu > li.submenu-ldlms-teams,
+body.ebox-user-team-leader #adminmenu .toplevel_page_ebox-lms .wp-submenu > li.submenu-ldlms-exam-questions {
+	padding-bottom: 1px;
+}
+
+body.ebox-user-team-leader #adminmenu .toplevel_page_ebox-lms .wp-submenu > li.submenu-ldlms-topics + li,
+body.ebox-user-team-leader #adminmenu .toplevel_page_ebox-lms .wp-submenu > li.submenu-ldlms-teams + li,
+body.ebox-user-team-leader #adminmenu .toplevel_page_ebox-lms .wp-submenu > li.submenu-ldlms-exam-questions + li {
+	padding-top: 1px;
+}
